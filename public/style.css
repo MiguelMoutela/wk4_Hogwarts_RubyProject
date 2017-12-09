@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin:  0
+}
+
+.container {
+  max-width: 970px;
+  margin:    0 auto;
+}
+
+nav {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+  height:          65px;
+  padding:         .75rem 1rem;
+  background:      #0d47a1;
+  color:           #fff;
+  margin-bottom:   1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color:           #fff;
+  font-size:       1.3rem;
+  margin-left:     1rem;
+}
+
+.btn {
+  padding:       .5rem 0.75rem;
+  color:         #fff;
+  border-radius: 5px;
+  background:    transparent;
+  transition:    all .3s ease-in-out;
+  border:        none
+}
+
+.btn-green {
+  background: #00C851;
+}
+
+.btn-green:hover {
+  background: #007E33;
+}
+
+.btn-blue {
+  background: #33b5e5;
+}
+
+.btn-blue:hover {
+  background: #0099CC;
+}
+
+.btn-block {
+  display: block;
+  width:   100%;
+}
+
+table {
+  width:           100%;
+  border-collapse: collapse;
+  font-size:       1.3rem;
+}
+
+table th {
+  background: #0d47a1;
+  padding:    1.5rem;
+  font-size:  1.5rem;
+  color:      #fff;
+  text-align: left;
+}
+
+table .house {
+  text-align: center;
+}
+
+table {
+
+}
+
+.panel .panel-header {
+  padding:                 0.75rem 2rem;
+  background:              #0d47a1;
+  color:                   #fff;
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+  margin-bottom:           1rem;
+}
+
+.field {
+  margin-bottom: 0.5rem;
+  display:       flex;
+  width:         100%;
+  align-items:   center;
+}
+
+.field label {;
+  flex:      0 0 25%;
+  font-size: 1.2rem;
+}
+
+.field input, .field select {
+  flex:      0 0 75%;
+  padding:   0.8rem;
+  font-size: 1.2rem;
+}
+
